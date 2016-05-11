@@ -20,9 +20,10 @@
 
 			<h2>Year-Round</h2>
 			<p class="pie apple"><span>Apple</span></p>
-			<p class="pie peach"><span>Peach</span></p>
 			<p class="pie pear"><span>Ginger Pear</span></p>
-			<p class="pie lemon"><span>Lemon Chiffon</span></p>
+			<p class="pie lemon"><span>Lemon Meringue</span></p>
+			<p class="pie peach"><span>Peach</span></p>
+			
 		</div>
 	</div>
 </div>

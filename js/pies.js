@@ -38,3 +38,14 @@ setInterval(function() {
 	}
 }, 250);
 
+
+// Display new form options when "delivery" is checked
+
+$('input[name=pickup_or_del]').click(function(){
+	if ($(this).val() == 'delivery') {
+		$('#deliveryaddress').show();
+	} else {
+		$('#deliveryaddress').hide();
+	}
+});
+

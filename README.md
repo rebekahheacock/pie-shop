@@ -9,6 +9,8 @@ Final project for CSCI E-12: Fundamentals of Web Development, Spring 2016
 - secondary page #2 (order.php)
 - navigation
 - JavaScript functionality somewhere
+	- conditional display of certain fields on form
+	- change nav background color on scroll
 - pass HTML validation
 - final report
 	- 5 min screencast OR 2 page report
