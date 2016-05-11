@@ -1,0 +1,172 @@
+body {
+	font-family: 'Cardo', 'Garamond', serif;
+}
+
+.navbar {
+	background: rgba(255,255,255,0.5);
+}
+
+.navbar-brand {
+	font-family: 'Pacifico', 'Helvetica', sans-serif;
+	color: #000;
+}
+
+.navbar-brand:hover {
+	color: #FFF;
+}
+
+.nav {
+	font-family: 'Montserrat', 'Helvetica', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.nav li a {
+	color: #000;
+}
+
+.nav li a:hover {
+	color: #FFF;
+	background: none;
+}
+
+.navbar-header button {
+	background: rgba(255,255,255,0.25);
+}
+
+.icon-bar {
+	background-color: #000;
+}
+
+header {
+	background-image: url('../images/header.png');
+	/* https://www.pexels.com/photo/baking-bakery-bake-cooking-8924/ */
+	background-repeat: none;
+	background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    padding-top: 70px;
+    color: #000;
+}
+
+.header-text {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.welcome {
+	font-family: 'Pacifico', 'Helvetica', sans-serif;
+	font-size: 4em;
+}
+
+.teaser {
+	font-family: 'Montserrat', 'Helvetica', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 2em;
+	padding-top: 50px;
+}
+
+.welcome-button {
+	font-family: 'Montserrat', 'Helvetica', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 2em;
+	padding: 15px;
+	border-radius: 5px;
+	background: rgba(40,99,115, 0.8);
+	color: white;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.welcome-button:hover {
+	color: white;
+	text-decoration: none;
+	background: rgba(40,99,115, 1);
+}
+
+@media (min-width: 768px) {
+
+	.header-text {
+		padding-top: 150px;
+		padding-bottom: 300px;
+	}
+
+	.welcome {
+		font-size: 5em;
+	}
+
+	.teaser {
+		font-size: 3.5em;
+	}
+
+}
+
+.homepage {
+	padding-top: 30px;
+}
+
+.lead {
+	font-family: 'Montserrat', 'Helvetica', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+.featured {
+	background-repeat: none;
+	background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    width: 50%;
+    padding: 30px;
+    margin: 10px auto;
+    font-family: 'Montserrat', 'Helvetica', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: white;
+}	
+
+.strawberry {
+	background-image: url('../images/strawberries.png');
+	/* https://www.pexels.com/photo/food-healthy-fruits-kitchen-1477/ */
+}
+
+.lemon {
+	background-image: url('../images/lemons.png');
+	/* https://unsplash.com/photos/E6QNwtp5Gbk */
+}
+
+.featured span {
+	padding: 5px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+	margin-top: 30px;
+	background-color: #D6D6D6;
+	color: #FFF;
+	padding: 5px;
+	text-align: right;
+	font-family: 'Montserrat', 'Helvetica', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+footer a {
+	color: #000;
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
