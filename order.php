@@ -21,7 +21,7 @@
 		<div class="col-sm-8">
 
 			<p class="lead">Order Pies</p>
-			<form method="post" action="">
+			<form method="post" action="#">
 				<div class="form-group">
 					<label for="name">Name</label>
     				<input type="text" class="form-control" id="name" placeholder="Name">
@@ -61,7 +61,7 @@
 	    				<input type="text" class="form-control" id="city" placeholder="City">
 					</div>
 
-					<labe lfor="state">State</label>
+					<label for="state">State</label>
 					<select class="form-control" id="state">
 						<option value="MA">Massachusetts</option>
 						<option value="NH">New Hampshire</option>

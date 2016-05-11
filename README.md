@@ -2,12 +2,12 @@
 
 Final project for CSCI E-12: Fundamentals of Web Development, Spring 2016
 
-## TODO
+## Requirements
 
 - homepage (index.php)
 - secondary page #1 (menu.php)
 - secondary page #2 (order.php)
-- navigation
+- navigation showing all pages
 - JavaScript functionality somewhere
 	- conditional display of certain fields on form
 	- change nav background color on scroll
