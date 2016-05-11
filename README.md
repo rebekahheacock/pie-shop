@@ -4,12 +4,12 @@ Final project for CSCI E-12: Fundamentals of Web Development, Spring 2016
 
 ## TODO
 
-- homepage
-- secondary page #1
-- secondary page #2
+- homepage (index.php)
+- secondary page #1 (menu.php)
+- secondary page #2 (order.php)
 - navigation
 - JavaScript functionality somewhere
-- validation
+- pass HTML validation
 - final report
 	- 5 min screencast OR 2 page report
 	- Who is the primary audience for the site? Are there secondary audiences?
@@ -30,7 +30,7 @@ Grandma Maebelle has been baking pies for county fairs, bake sales, and school f
 
 ## Sitemap
 - Home
-	- About 
+	- ~~About~~ (moved content to home page)
 	- Menu 
 	- Order 
 	- Press

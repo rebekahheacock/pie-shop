@@ -23,11 +23,10 @@
 		</div>
 		<div class="collapse navbar-collapse" id="navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="about.php">About</a></li>
 				<li><a href="menu.php">Menu</a></li>
-				<li><a href="about.php">Order</a></li>
-				<li><a href="about.php">Press</a></li>
-				<li><a href="about.php">Contact</a></li>
+				<li><a href="order.php">Order</a></li>
+				<li><a href="press.php">Press</a></li>
+				<li><a href="contact.php">Contact</a></li>
 			</ul>
 		</div>
 	</div>

@@ -1,5 +1,21 @@
+/* Rebekah Heacock Jones
+ * rebekah.heacock@gmail.com
+ * CSCI E-12, Spring 2016
+ * pies.css
+ */
+
 body {
 	font-family: 'Cardo', 'Garamond', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', 'Helvetica', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 5em;
 }
 
 .navbar {
@@ -39,8 +55,6 @@ body {
 }
 
 header {
-	background-image: url('../images/header.png');
-	/* https://www.pexels.com/photo/baking-bakery-bake-cooking-8924/ */
 	background-repeat: none;
 	background-attachment: scroll;
     background-position: center center;
@@ -51,6 +65,22 @@ header {
     text-align: center;
     padding-top: 70px;
     color: #000;
+    margin-bottom: 30px;
+}
+
+.header-home {
+	background-image: url('../images/header.png');
+	/* https://www.pexels.com/photo/baking-bakery-bake-cooking-8924/ */
+}
+
+.header-menu {
+	background-image: url('../images/menu.png');
+	/* https://www.pexels.com/photo/cheesecake-on-plate-and-cup-of-coffee-6600/ */
+}
+
+.header-order, .header-press, .header-contact {
+	background-image: url('../images/order.png');
+	/* https://www.pexels.com/photo/baking-pastry-dough-bakery-9095/ */
 }
 
 .header-text {
@@ -107,10 +137,6 @@ header {
 
 }
 
-.homepage {
-	padding-top: 30px;
-}
-
 .lead {
 	font-family: 'Montserrat', 'Helvetica', sans-serif;
 	font-weight: 700;
@@ -118,7 +144,11 @@ header {
 	font-size: 2em;
 }
 
-.featured {
+.white {
+	color: #FFF;
+}
+
+.pie {
 	background-repeat: none;
 	background-attachment: scroll;
     background-position: center center;
@@ -146,7 +176,27 @@ header {
 	/* https://unsplash.com/photos/E6QNwtp5Gbk */
 }
 
-.featured span {
+.peach {
+	background-image: url('../images/peach.png');
+	/* https://www.pexels.com/photo/food-kitchen-pie-cake-6981/ */
+}
+
+.apple {
+	background-image: url('../images/apple.png');
+	/* https://www.pexels.com/photo/healthy-fruits-health-apples-4148/ */
+}
+
+.blueberry {
+	background-image: url('../images/blueberries.png');
+	/* https://www.pexels.com/photo/food-healthy-red-blue-70862/ */
+}
+
+.pear {
+	background-image: url('../images/pears.png');
+	/* https://unsplash.com/photos/YbFrjg5m5ZY */
+}
+
+.pie span {
 	padding: 5px;
 	background: rgba(0, 0, 0, 0.5);
 }

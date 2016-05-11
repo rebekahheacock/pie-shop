@@ -1,5 +1,3 @@
-</div>
-
 <footer>
 	<span><a href="https://github.com/rebekahheacock/pie-shop">view on github</a></span>
 </footer>
